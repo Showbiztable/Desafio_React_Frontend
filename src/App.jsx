@@ -12,7 +12,7 @@ function App() {
   const [token, setToken] = useState(null)
 
   return (
-    <div className="flex-container">
+    <div className="app">
       <BrowserRouter>
         <PageHeader token={token} setToken={setToken} />
         <Switch>
