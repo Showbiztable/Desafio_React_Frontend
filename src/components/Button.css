@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    background-color: #4CAF50; 
+    color: black; 
+
+    border: 2px solid #3c853e;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+.button1 a:link {
+    text-decoration: none;
+}
